@@ -5,7 +5,7 @@
         "pictures": "./assets/img/works/booki.webp",
         "decription":"Page d'accueil d'une agence de voyage",
         "skills": "Ce projet a été une opportunité formatrice qui m'a permis d''acquérir des compétences essentielles en HTML et CSS. J'ai appris à intégrer une interface responsive, ce qui signifie que mon travail s'adapte de manière fluide aux différents appareils, qu'il s'agisse d'un ordinateur de bureau, d'une tablette ou d'un téléphone portable.",
-        "link":""
+        "link":"https://laurent-daleo.github.io/Booki/"
     },
     {
         "id":"2",
