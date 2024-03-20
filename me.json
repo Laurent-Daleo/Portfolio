@@ -1,0 +1,51 @@
+[
+    {
+        "id":"1",
+        "title":"Booki",
+        "pictures": "./assets/img/works/booki.webp",
+        "decription":"Page d'accueil d'une agence de voyage",
+        "skills": "Ce projet a été une opportunité formatrice qui m'a permis d''acquérir des compétences essentielles en HTML et CSS. J'ai appris à intégrer une interface responsive, ce qui signifie que mon travail s'adapte de manière fluide aux différents appareils, qu'il s'agisse d'un ordinateur de bureau, d'une tablette ou d'un téléphone portable.",
+        "link":""
+    },
+    {
+        "id":"2",
+        "title":"Ohmyfood",
+        "pictures": "./assets/img/works/ohmyfood.webp",
+        "decription":"Site de restauration, mobile first, avec animations, permettant de commander ses plats en avance.",
+        "skills": "Ce projet a été une opportunité formatrice qui m'a permis d'acquérir des compétences essentielles en intégration d'interface responsive en mobile first. J'ai également appris à utiliser le préprocesseur Sass pour améliorer mon flux de travail, ainsi qu'à gérer les animations CSS pour rendre mes créations plus dynamiques et attrayantes.",
+        "link":"https://laurent-daleo.github.io/ohmyfood-project/"
+    },
+    {
+        "id":"3",
+        "title":"Sophie Bluel",
+        "pictures": "./assets/img/works/sophie_bluel.webp",
+        "decription":"Site de Sophie Blue, architecte, voulant ajouter ses projets en se connectant",
+        "skills": "Ce projet a été une opportunité formatrice qui m'a permis d'acquérir des compétences essentielles en JavaScript. J'ai appris à manipuler dynamiquement le DOM, à effectuer des requêtes API, et à créer des interactions fluides entre l'utilisateur et l'application. ",
+        "link":"https://github.com/Laurent-Daleo/Project-Sophie-Bluel"
+    },
+    {
+        "id":"4",
+        "title":"Kasa",
+        "pictures": "./assets/img/works/booki.webp",
+        "decription":"Site de réservation d'appartements sur Paris",
+        "skills": "Ce projet m'a permis d'acquérir des compétences essentielles en React. J'ai appris à construire du contenu avec JSX,à implenter des composants, à gérer les states, et faire des demanddes d'API avec React.",
+        "link":"https://github.com/Laurent-Daleo/Kasa-Project"
+    },
+    {
+        "id":"5",
+        "title":"Ninna carducci",
+        "pictures": "./assets/img/works/booki.webp",
+        "decription":"Site de la photographe Nina Carducci, voulant optimisé le référencement de son site",
+        "skills": "Ce projet a été une opportunité formatrice qui m'a permis d'acquérir des compétences essentielles en SEO (Search Engine Optimization), en optimisation du référencement et en amélioration des performances d'un site. J'ai appris à optimiser le contenu pour les moteurs de recherche, à améliorer la visibilité d'un site web, à accélérer le temps de chargement des pages et à offrir une expérience utilisateur fluide et rapide.",
+        "link":"https://laurent-daleo.github.io/Nina-Carducci/"
+    },
+    {
+        "id":"6",
+        "title":"Argent Bank",
+        "pictures": "./assets/img/works/booki.webp",
+        "decription":"Application Bancaire",
+        "skills": "Ce projet a été une opportunité formatrice qui m'a permis d'acquérir des compétences essentielles en Redux Toolkit. J'ai appris à gérer l'état global de mon application de manière efficace, à organiser mes actions et mes reducers, à utiliser les slices pour découper mon état en morceaux logiques, et à connecter mes composants React au store Redux. Grâce à Redux Toolkit, j'ai pu simplifier mon flux de travail.",
+        "link":"https://github.com/Laurent-Daleo/ArgentBank-website"
+    }
+]
+
