@@ -1,14 +1,14 @@
 [
     {
-        "id":"1",
+        "id":"0",
         "title":"Booki",
         "pictures": "./assets/img/works/booki.webp",
         "decription":"Page d'accueil d'une agence de voyage",
-        "skills": "Ce projet a été une opportunité formatrice qui m'a permis d''acquérir des compétences essentielles en HTML et CSS. J'ai appris à intégrer une interface responsive, ce qui signifie que mon travail s'adapte de manière fluide aux différents appareils, qu'il s'agisse d'un ordinateur de bureau, d'une tablette ou d'un téléphone portable.",
+        "skills": "Ce projet a été une opportunité formatrice qui m'a permis d'acquérir des compétences essentielles en HTML et CSS. J'ai appris à intégrer une interface responsive, ce qui signifie que mon travail s'adapte de manière fluide aux différents appareils, qu'il s'agisse d'un ordinateur de bureau, d'une tablette ou d'un téléphone portable.",
         "link":"https://laurent-daleo.github.io/Booki/"
     },
     {
-        "id":"2",
+        "id":"1",
         "title":"Ohmyfood",
         "pictures": "./assets/img/works/ohmyfood.webp",
         "decription":"Site de restauration, mobile first, avec animations, permettant de commander ses plats en avance.",
@@ -16,7 +16,7 @@
         "link":"https://laurent-daleo.github.io/ohmyfood-project/"
     },
     {
-        "id":"3",
+        "id":"2",
         "title":"Sophie Bluel",
         "pictures": "./assets/img/works/sophie_bluel.webp",
         "decription":"Site de Sophie Blue, architecte, voulant ajouter ses projets en se connectant",
@@ -24,7 +24,7 @@
         "link":"https://github.com/Laurent-Daleo/Project-Sophie-Bluel"
     },
     {
-        "id":"4",
+        "id":"3",
         "title":"Kasa",
         "pictures": "./assets/img/works/booki.webp",
         "decription":"Site de réservation d'appartements sur Paris",
@@ -32,7 +32,7 @@
         "link":"https://github.com/Laurent-Daleo/Kasa-Project"
     },
     {
-        "id":"5",
+        "id":"4",
         "title":"Ninna carducci",
         "pictures": "./assets/img/works/booki.webp",
         "decription":"Site de la photographe Nina Carducci, voulant optimisé le référencement de son site",
@@ -40,7 +40,7 @@
         "link":"https://laurent-daleo.github.io/Nina-Carducci/"
     },
     {
-        "id":"6",
+        "id":"5",
         "title":"Argent Bank",
         "pictures": "./assets/img/works/booki.webp",
         "decription":"Application Bancaire",

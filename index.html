@@ -9,8 +9,12 @@
     <link href="https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
     <title>Laurent D'ALEO</title>
     <link rel="stylesheet" href="./assets/style/style.css">
+    <script src="./assets/js/script.js" defer></script>
 </head>
 <body>
+
+                <!--                  Header                           -->
+
     <header>
         <div class="logo">
             <div class="banner">
@@ -28,6 +32,7 @@
                     <li><a class="nav_link" href="#techno">TECHNO</a></li>
                     <li><a class="nav_link" href="#works">WORKS</a></li>
                     <li><a class="nav_link" href="#about">ABOUT</a></li>
+                    <li><a class="nav_link" href="#about">CONTACT</a></li>
                 </ul>
                 <div class="me">
                     <img class="me_img" src="./assets/img/portrait/portrait1.jpg" alt="Portrait de Laurent D'ALEO">
@@ -36,7 +41,9 @@
         </nav>
     </header>
     <main>
-                <!--                  About                           -->
+
+        <!--                  About                           -->
+                
 <section class="about" id="about" >
     <div class="about_container">
         <div class="background_photo"></div>
@@ -61,6 +68,9 @@
         </div>
     </div>
 </section>
+
+        <!--                  Techno                           -->
+
         <section class="techno" id="techno">
             <h3 class="techno_title">MY TECHNOS</h3>
             <hr class="techno_hr" >
@@ -95,50 +105,77 @@
                 </div>
             </div>
         </section>
+        <!--                  Modal                           -->
 
+                <div class="modal_background"></div>
+            
         <!--                  Works                           -->
 
         <section class="works" id="works" >
             <h3 class="works_title" >MY WORKS</h3>
             <hr class="works_hr" >
             <div class="gallery">
-                <div class="gallery_cards">
+                <div class="gallery_cards" data-id="0">
                         <img src="./assets/img/works/booki.webp" alt="Site web Bokki">
                     <div class="shadow">
                         <img src="./assets/img/works/svg/searchengin.svg" alt="icone loupe">
                     </div>
                 </div>
-                <div class="gallery_cards">
+                <div class="gallery_cards" data-id="1">
                         <img src="./assets/img/works/ohmyfood.webp" alt="Site web ohmyfood">
                     <div class="shadow">
                         <img src="./assets/img/works/svg/searchengin.svg" alt="icone loupe">
                     </div>
                 </div>
-                <div class="gallery_cards">
+                <div class="gallery_cards" data-id="2">
                         <img src="./assets/img/works/sophie_bluel.webp" alt="Site web de Sophie Bluel">
                     <div class="shadow">
                         <img src="./assets/img/works/svg/searchengin.svg" alt="icone loupe">
                     </div>
                 </div>
-                <div class="gallery_cards">
+                <div class="gallery_cards" data-id="3">
                         <img src="./assets/img/works/kasa.webp" alt="Site web Kasa">
                     <div class="shadow">
                         <img src="./assets/img/works/svg/searchengin.svg" alt="icone loupe">
                     </div>
                 </div>
-                <div class="gallery_cards">
+                <div class="gallery_cards" data-id="4">
                         <img src="./assets/img/works/nina_carducci.webp" alt="Site web de Nina Carducci">
                     <div class="shadow">
                         <img src="./assets/img/works/svg/searchengin.svg" alt="icone loupe">
                     </div>
                 </div>
-                <div class="gallery_cards">
+                <div class="gallery_cards" data-id="5">
                         <img src="./assets/img/works/argent_bank.webp" alt="Site web de Nina Carducci">
                     <div class="shadow">
                         <img src="./assets/img/works/svg/searchengin.svg" alt="icone loupe">
                     </div>
                 </div>
             </div>
+        </section>
+
+        <!--                  Contact                           -->
+        <section class="contact_container">
+            <h4 class="contact_title">CONTACT</h4>
+            <form action="" class="contact_form">
+                <div>
+                    <label for="firstName">Prénom:</label><br>
+                    <input type="text" id="firstName" name="firstName" required><br>
+                </div>
+                <div>
+                    <label for="lastName">Nom:</label><br>
+                    <input type="text" id="lastName" name="lastName" required><br>
+                </div>
+                <div>
+                    <label for="email">Email:</label><br>
+                    <input type="email" id="email" name="email" required><br>
+                </div>
+                <div>
+                    <label for="message">Message:</label><br>
+                    <textarea id="message" name="message" rows="4" required></textarea><br>
+                </div>
+                <button type="submit">Envoyer</button>
+            </form>
         </section>
     </main>
 </body>
