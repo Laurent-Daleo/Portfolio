@@ -504,7 +504,7 @@ header{
     }
     .about_portrait{
         left: 14%;
-        top: 60%;
+        top: 96%;
     }
 }
 @media screen and (max-width:1024px){
@@ -541,7 +541,7 @@ header{
     }
     .about_portrait{
         left: 9%;
-        top: 50%;
+        top: 80%;
     }
     .gallery{
         grid-column-gap: 67px;
@@ -565,7 +565,7 @@ header{
     }
     .about_portrait{
         left: 16%;
-        top: 60%;
+        top: 83%;
     }
     .about_description{
         font-size: 14px;
@@ -590,7 +590,7 @@ header{
 
 @media screen and (max-width:769px){
     .about_portrait{
-        top: 55%;
+        top: 88%;
         left:10%;
     }
     .gallery{
@@ -720,7 +720,7 @@ header{
     }
     .about_portrait{
         left: 27%;
-        top: 34%;
+        top: 54%;
     }
     .modal_img{
         width: 150px;
@@ -733,7 +733,7 @@ header{
 @media screen and (max-width:376px){
     .about_portrait{
         left: 20%;
-        top: 34%;
+        top: 54%;
     }
     .techno_container{
         gap: 20px;
@@ -750,7 +750,7 @@ header{
     }
     .about_portrait{
         left: 15%;
-        top: 35%;
+        top: 55%;
     }
     .who_title{
         font-size: 18px;
