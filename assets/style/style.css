@@ -619,10 +619,14 @@ header{
 }
 }
 
-@media screen and (max-width:768px){
+@media screen and (max-width:769px){
     .about_portrait{
         top: 60%;
         left:10%;
+    }
+    .gallery_cards{
+        min-height: 270px;
+        height: max-content;
     }
 }
 @media screen and (max-width:525px){
