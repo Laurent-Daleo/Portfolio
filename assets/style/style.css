@@ -696,6 +696,10 @@ header{
         left: 27%;
         top: 57%;
     }
+    .title_modal{
+        font-size: 14px;
+        width: 40%;
+    }
     .modal_img{
         width: 150px;
         height: 100px;
