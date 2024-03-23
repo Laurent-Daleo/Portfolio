@@ -678,6 +678,10 @@ header{
     .techno_card{
         margin-bottom: 20px;
     }
+    .title_modal{
+        font-size: 14px;
+        width: 40%;
+    }
 }
 @media screen and (max-width:476px){
     .about_portrait{
@@ -695,10 +699,6 @@ header{
     .about_portrait{
         left: 27%;
         top: 57%;
-    }
-    .title_modal{
-        font-size: 14px;
-        width: 40%;
     }
     .modal_img{
         width: 150px;
