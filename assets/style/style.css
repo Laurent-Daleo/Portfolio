@@ -122,7 +122,7 @@ header{
     .about_portrait{
         position: absolute;
         left: 22%;
-        top: 85%;
+        top: 78%;
  
     }
     .portrait_img{
@@ -504,7 +504,7 @@ header{
     }
     .about_portrait{
         left: 14%;
-        top: 65%;
+        top: 60%;
     }
 }
 @media screen and (max-width:1024px){
@@ -541,7 +541,7 @@ header{
     }
     .about_portrait{
         left: 9%;
-        top: 55%;
+        top: 50%;
     }
     .gallery{
         grid-column-gap: 67px;
@@ -586,6 +586,24 @@ header{
         top: 100%;
     }
 }
+
+
+@media screen and (max-width:769px){
+    .about_portrait{
+        top: 55%;
+        left:10%;
+    }
+    .gallery{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: calc(100% - 60px);
+    }
+    .gallery_cards{
+        min-height: 270px;
+    }
+}
 @media screen and (max-width:634px){
     .nav_link_content{
         gap: 10px;
@@ -617,17 +635,6 @@ header{
     .about_description{
     font-size: 12px;
 }
-}
-
-@media screen and (max-width:769px){
-    .about_portrait{
-        top: 60%;
-        left:10%;
-    }
-    .gallery_cards{
-        min-height: 270px;
-        height: max-content;
-    }
 }
 @media screen and (max-width:525px){
     .me_img{
@@ -692,6 +699,14 @@ header{
         left: 25%;
         top: 57%;
     }
+    .gallery_cards{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+        max-height: 250px;
+    }
 }
 @media screen and (max-width:476px){
     .about_portrait{
@@ -700,9 +715,12 @@ header{
     }
 }
 @media screen and (max-width:426px){
+    .banner{
+        top: 20%;
+    }
     .about_portrait{
         left: 27%;
-        top: 57%;
+        top: 34%;
     }
     .modal_img{
         width: 150px;
@@ -715,7 +733,7 @@ header{
 @media screen and (max-width:376px){
     .about_portrait{
         left: 20%;
-        top: 58%;
+        top: 34%;
     }
     .techno_container{
         gap: 20px;
@@ -723,6 +741,7 @@ header{
     .send_mail_title{
         font-size: 15px;
     }
+
 }
 @media screen and (max-width:320px){
     .nav_link_content{
@@ -731,7 +750,7 @@ header{
     }
     .about_portrait{
         left: 15%;
-        top: 57%;
+        top: 35%;
     }
     .who_title{
         font-size: 18px;
