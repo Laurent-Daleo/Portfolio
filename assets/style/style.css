@@ -666,7 +666,8 @@ header{
 }
 @media screen and (max-width:768px){
     .about_portrait{
-        top: 90%;
+        top: 103%;
+        left:10%;
     }
 }
 @media screen and (max-width:476px){
