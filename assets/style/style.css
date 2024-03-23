@@ -10,6 +10,7 @@ header{
     align-items: flex-start;
     justify-content: center;
     width: 100%;
+    height: auto;
 }
 .logo{
     position: relative;
@@ -38,9 +39,9 @@ header{
     display: flex;
     flex-wrap: nowrap;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
+    gap: 120px;
     list-style-type: none;
-    width: 100%;
 }
 .nav_link{
     text-decoration: none;
@@ -110,7 +111,9 @@ header{
     }
     .background_photo{
         position: relative;
-        width: 400px;
+        max-width: 400px;
+        max-height: 400px;
+        width: 100%;
         height: 400px;
         background-color: #840032;
         border-radius: 15px;
@@ -118,8 +121,8 @@ header{
     }
     .about_portrait{
         position: absolute;
-        left: 15%;
-        top: 940px;
+        left: 23%;
+        top: 128%;
  
     }
     .portrait_img{
@@ -166,7 +169,7 @@ header{
 }
 .techno_title{
     z-index: 1;
-    width: 335px;
+    width: auto;
     height: 20px;
     font-size: 58px;
     font-weight: bold;
@@ -393,68 +396,49 @@ header{
     }
 
 /*-----------CONTACT-----------*/
-
 .contact_container{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    position: relative;
     width: 100%;
-    height: auto;
-    background-color: #334E60;
-    color: white;
-    padding: 50px 0;
-}
-.contact_form{
+    min-height: 300px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: calc(100% - 70%);
 }
 .contact_title{
+    z-index: 1;
     font-size: 48px;
     text-shadow: 1px 4px 9px #0A0403;
+    height: 50px;
+    margin-bottom: 0;
+    text-shadow: 1px 4px 9px #5c190e;
 }
-.input_content{
-    margin: 20px 0;
-    width: calc(100% - 20%);
+.send_mail_content{
+    margin-bottom: 100px;
+    text-align: center;
 }
-.form_text{
-    width: 100%;
-    height: 100px;
-    margin-bottom: 30px;
-    border: none;
-    border-radius: 5px;
-    box-shadow: 1px 9px 20px 0px rgba(0,0,0,0.83);
+.send_mail_title{
+    font-size: 22px;
 }
-.contact_label{
-    font-size: 20px;
-    margin: 20px 0;
-}
-.inputs{
-    width: 100%;
-    height: 30px;
-    margin-top: 5px;
-    border: none;
-    border-radius: 5px;
-    box-shadow: 1px 9px 20px 0px rgba(0,0,0,0.83);
-}
-.btn_submit{
-    width: 25%;
-    height: 30px;
-    font-size: 18px;
-    font-weight: 50;
+.send_btn{
+    width: auto;
+    height: 35px;
     background-color: #840032;
     border: none;
-    border-radius: 20px;
-    box-shadow: 1px 9px 20px 0px rgba(0,0,0,0.83);
-    color: white;
+    border-radius: 25px;
+    box-shadow: 1px 13px 27px -4px #334E60;
 }
-.btn_submit:active{
+.send_btn:active {
     box-shadow: none;
-    color: #0CCE6B;
+    background-color: #0CCE6B;
 }
+.mailto{
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    font-size: 16px;
+}
+
 /*-----------Footer-----------*/
 
 .footer_container{
@@ -479,4 +463,252 @@ header{
     font-weight: bold;
     color: white;
     text-shadow: 1px 4px 9px #0A0403;
+}
+
+@media screen and (max-width:1440px) {
+    .nav_link_content{
+        justify-content: center;
+        gap: 70px;
+    }
+    .nav_link{
+        font-size: calc(22px - 3px);
+    }
+    .banner_title{
+        font-size: calc(45px - 10px);
+    }
+    .name{
+        font-size: calc(55px - 20px);
+    }
+    .job_content{
+        width: calc(100% - 10%);
+    }
+    .job{
+        font-size: calc(30px - 10px);
+    }
+    .logo{
+        height: 600px;
+    }
+    .me {
+        height: calc(750px - 25%);
+    }
+    .me_img{
+        height: calc(750px - 25%);
+    }
+    .about_portrait{
+        left: 14%;
+        top: 100%;
+    }
+}
+@media screen and (max-width:1024px){
+    .nav_link_content{
+        justify-content: center;
+        gap: 50px;
+    }
+    .nav_link{
+        font-size: calc(22px - 10px);
+    }
+    .banner_title{
+        font-size: calc(45px - 30px);
+    }
+    .me {
+        height: calc(750px - 45%);
+    }
+    .me_img{
+        height: calc(750px - 45%);
+    }
+    .logo{
+        height: 475px;
+    }
+    .name{
+        font-size: calc(55px - 30px);
+    }
+    .job_content{
+        height: 60px;
+    }
+    .job{
+        font-size: calc(30px - 15px);
+    }
+    .about_container{
+        gap: 210px;
+    }
+    .about_portrait{
+        left: 9%;
+        top: 84%;
+    }
+    .gallery{
+        grid-column-gap: 67px;
+    }
+}
+
+@media screen and (max-width:970px){
+    .nav_link_content{
+        gap: 36px;
+    }
+    .about_container{
+        gap: calc(170px - 25px);
+    }
+    .background_photo{
+        width: 300px;
+        height: 300px;
+    }
+    .portrait_img{
+        width: 300px;
+        height: 300px;
+    }
+    .about_portrait{
+        left: calc(14% - 1%);
+        top: 81%;
+    }
+    .about_description{
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width:853px){
+    .gallery{
+        grid-column-gap: 401px;
+    }
+}
+@media screen and (max-width:715px){
+    .about_container{
+        gap: calc(130px - 25px);
+    }
+    .about_portrait{
+        left: calc(11% - 1%);
+        top: 100%;
+    }
+}
+@media screen and (max-width:634px){
+    .nav_link_content{
+        gap: 10px;
+    }
+    .name{
+        font-size: 20px;
+    }
+    .job_content{
+        height: 40px;
+    }
+    .job{
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width:600px){
+    .background_photo{
+    width: 250px;
+    height: 250px;
+}
+    .portrait_img{
+    width: 250px;
+    height: 250px;
+}
+    .about_portrait{
+    left: calc(11% - 1%);
+    top: 105%;
+}
+    .about_description{
+    font-size: 12px;
+}
+}
+@media screen and (max-width:525px){
+    .me_img{
+        height: 325px;
+    }
+    .logo{
+        position: initial;
+        height: 380px;
+        width: 0px;
+        padding: 0;
+    }
+    .banner{
+        z-index: 5;
+    }
+    .about_container{
+        flex-direction: column;
+        gap: 0px;
+    }
+    .about_portrait{
+        left: 30%;
+        top: 63%;
+    }
+    .nav_link_content{
+        gap: 15px;
+        margin-left: 0;
+    }
+    .about_description{
+        position: absolute;
+        right: 10%;
+        font-size: 14px;
+        width: calc(100% - 20%);
+    }
+    .techno_title{
+    font-size: 50px;
+}
+    .techno_hr{
+        width: 285px;
+    }
+    .works_title{
+    font-size: 50px;
+}
+    .works_hr{
+        width: 240px;
+    }
+    .gallery{
+        grid-template-columns: 250px;
+        grid-template-rows: 250px
+    }
+    .footer_container{
+        padding: 0;
+    }
+    .techno_card{
+        margin-bottom: 20px;
+    }
+}
+@media screen and (max-width:768px){
+    .about_portrait{
+        top: 90%;
+    }
+}
+@media screen and (max-width:476px){
+    .about_portrait{
+        left: 25%;
+        top: 57%;
+    }
+}
+@media screen and (max-width:426px){
+    .about_portrait{
+        left: 27%;
+        top: 57%;
+    }
+}
+@media screen and (max-width:376px){
+    .about_portrait{
+        left: 20%;
+        top: 58%;
+    }
+    .techno_container{
+        gap: 20px;
+    }
+    .send_mail_title{
+        font-size: 15px;
+    }
+}
+@media screen and (max-width:320px){
+    .nav_link_content{
+        gap: 5px;
+        margin-left: 0;
+    }
+    .about_portrait{
+        left: 15%;
+        top: 57%;
+    }
+    .who_title{
+        font-size: 18px;
+    }
+    .techno_container{
+        flex-direction: column;
+    }
+    .techno_card{
+        margin-bottom: 20px;
+    }
 }

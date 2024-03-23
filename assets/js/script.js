@@ -49,6 +49,12 @@ function createModal() {
     modal.append(description)
     modal.append(skills)
 }
+function createFormContact() {
+    const formContact = document.getElementById("contact")
+    const contactForm = document.createElement("form")
+
+
+}
 /**
  * Gére les click sur les cards
  */
