@@ -630,7 +630,7 @@ header{
 }
     .about_portrait{
     left: calc(11% - 1%);
-    top: 105%;
+    top: 88%;
 }
     .about_description{
     font-size: 12px;
@@ -655,7 +655,7 @@ header{
     }
     .about_portrait{
         left: 30%;
-        top: 36%;
+        top: 89%;
     }
     .nav_link_content{
         gap: 15px;
@@ -706,12 +706,6 @@ header{
         justify-content: center;
         gap: 20px;
         max-height: 250px;
-    }
-}
-@media screen and (max-width:476px){
-    .about_portrait{
-        left: 25%;
-        top: 57%;
     }
 }
 @media screen and (max-width:426px){
