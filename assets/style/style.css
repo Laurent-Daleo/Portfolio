@@ -252,6 +252,7 @@ header{
     justify-content: center;
     z-index: 999;
     max-width: 600px;
+    max-height: 550px;
     width: calc(100% - 40%);
     height: auto;
     background-color: white;
@@ -416,12 +417,19 @@ header{
 .send_mail_content{
     margin-bottom: 100px;
     text-align: center;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .send_mail_title{
     font-size: 22px;
 }
 .send_btn{
-    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
     height: 35px;
     background-color: #840032;
     border: none;
@@ -436,7 +444,7 @@ header{
     text-decoration: none;
     color: white;
     padding: 20px;
-    font-size: 16px;
+    font-size: 14px;
 }
 
 /*-----------Footer-----------*/
@@ -687,6 +695,13 @@ header{
     .about_portrait{
         left: 27%;
         top: 57%;
+    }
+    .modal_img{
+        width: 150px;
+        height: 100px;
+    }
+    .skills{
+        font-size: 12px;
     }
 }
 @media screen and (max-width:376px){
