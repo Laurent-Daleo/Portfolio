@@ -496,7 +496,7 @@ header{
     }
     .about_portrait{
         left: 14%;
-        top: 100%;
+        top: 65%;
     }
 }
 @media screen and (max-width:1024px){
@@ -533,7 +533,7 @@ header{
     }
     .about_portrait{
         left: 9%;
-        top: 94%;
+        top: 55%;
     }
     .gallery{
         grid-column-gap: 67px;
@@ -556,8 +556,8 @@ header{
         height: 300px;
     }
     .about_portrait{
-        left: calc(14% - 1%);
-        top: 81%;
+        left: 16%;
+        top: 60%;
     }
     .about_description{
         font-size: 14px;
@@ -610,6 +610,13 @@ header{
     font-size: 12px;
 }
 }
+
+@media screen and (max-width:768px){
+    .about_portrait{
+        top: 60%;
+        left:10%;
+    }
+}
 @media screen and (max-width:525px){
     .me_img{
         height: 325px;
@@ -629,7 +636,7 @@ header{
     }
     .about_portrait{
         left: 30%;
-        top: 63%;
+        top: 36%;
     }
     .nav_link_content{
         gap: 15px;
@@ -664,10 +671,10 @@ header{
         margin-bottom: 20px;
     }
 }
-@media screen and (max-width:768px){
+@media screen and (max-width:476px){
     .about_portrait{
-        top: 103%;
-        left:10%;
+        left: 25%;
+        top: 57%;
     }
 }
 @media screen and (max-width:476px){
