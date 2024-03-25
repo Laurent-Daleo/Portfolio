@@ -764,6 +764,12 @@ header{
     }
 }
 @media screen and (max-width:376px){
+    .about_titles{
+        right: 15%;
+    }
+    .background_photo{
+        left: 14%;
+    }
     .about_portrait{
         left: 20%;
     }
@@ -779,6 +785,12 @@ header{
     .nav_link_content{
         gap: 5px;
         margin-left: 0;
+    }
+    .about_titles{
+        right: 10%;
+    }
+    .background_photo{
+        left: 10%;
     }
     .about_portrait{
         left: 15%;
