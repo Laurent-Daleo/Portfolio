@@ -157,7 +157,7 @@ header{
     
     .about_description{ 
     font-size: 16px;
-    line-height: 1.2rem;
+    line-height: 1.3rem;
 
     }
 
@@ -258,7 +258,7 @@ header{
     z-index: 999;
     max-width: 600px;
     max-height: 550px;
-    width: calc(100% - 40%);
+    width: calc(100% - 20%);
     height: auto;
     background-color: white;
     border-radius: 25px;
@@ -461,7 +461,7 @@ header{
     align-items: center;
     justify-content: center;
     background-color: #840032;
-    padding: 20px;
+    padding-top: 20px;
 }
 .footer_img{
     width: 84px;
