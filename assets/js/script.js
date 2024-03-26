@@ -25,6 +25,9 @@ function createModal() {
     const description = document.createElement("p")
     const skills = document.createElement("p")
     const link = document.createElement("a")
+    const btnGoToLink = document.createElement("div")
+    const btnLink = document.createElement("a")
+
 
     modalBackground.classList.add("inactive")
     modal.classList.add("modal_content")
@@ -34,9 +37,11 @@ function createModal() {
     closeModal.classList.add("modal_close")
     description.classList.add("description")
     skills.classList.add("skills")
-    link.classList.add("go_to")
-    link.setAttribute("target", "_blank")
-    link.setAttribute("title", "Cliquez pour ouvrir");
+    btnGoToLink.classList.add("btn_goto_link")
+    btnLink.classList.add("link_btn")
+    btnLink.classList.add("go_to")
+    btnLink.setAttribute("target", "_blank")
+    btnLink.innerText = ("Voir Projet")
 
     modalBackground.append(modal)
     modal.append(titleModal)
@@ -48,6 +53,8 @@ function createModal() {
     imgCloseModal.src = './assets/img/works/svg/close.svg'
     modal.append(description)
     modal.append(skills)
+    modal.append(btnGoToLink)
+    btnGoToLink.append(btnLink)
 }
 /**
  * Gére les click sur les cards
@@ -73,6 +80,7 @@ function displayModalData(id) {
     const description = document.querySelector(".description");
     const skills = document.querySelector(".skills");
     const link = document.querySelector(".go_to");
+    const linkBtn = document.querySelector(".link_btn")
 
     getModalData()
         .then(data => {
@@ -85,6 +93,7 @@ function displayModalData(id) {
                     description.textContent = data[i].decription;
                     skills.textContent = data[i].skills;
                     link.href = data[i].link;
+                    linkBtn.href = data[i].link;
                     break;
                 }
             const closeModal = document.querySelector(".modal_close")
@@ -113,12 +122,14 @@ function resetModal() {
     const description = document.querySelector(".description");
     const skills = document.querySelector(".skills");
     const btnLink = document.querySelector(".goto");
+    const linkBtn = document.querySelector(".link_btn")
     titleModal.innerText = "";
     modalPicture.src = "";
     modalPicture.alt = "";
     description.textContent = "";
     skills.textContent = "";
     btnLink.href = "";
+    linkBtn.href = "";
 }
 /**
  * Initialise le demarrage du code

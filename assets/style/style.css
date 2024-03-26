@@ -257,7 +257,7 @@ header{
     justify-content: center;
     z-index: 999;
     max-width: 600px;
-    max-height: 550px;
+    max-height: 700px;
     width: calc(100% - 20%);
     height: auto;
     background-color: white;
@@ -302,8 +302,25 @@ header{
     font-size: 16px;
     margin-bottom: 30px;
 }
+.btn_goto_link{
+    width: calc(100% - 75%);
+    height: 25px;
+    cursor: pointer;
+    background-color: #840032;
+    text-align: center;
+    color: white;
+    padding:  5px 0;
+    margin-bottom: 10px;
+    border-radius: 25px;
+    box-shadow: 1px 13px 27px -4px rgba(0,0,0,0.83);
+}
+.btn_goto_link:active{
+    box-shadow: none;
+    color: #0CCE6B;
+}
 .go_to{
-
+    text-decoration: none;
+    color: white;
 }
 /*-----------WORKS-----------*/
 
