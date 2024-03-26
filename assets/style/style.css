@@ -316,6 +316,8 @@ header{
 }
 .btn_goto_link:active{
     box-shadow: none;
+}
+.btn_goto_link:active .go_to{
     color: #0CCE6B;
 }
 .go_to{
